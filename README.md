@@ -1,6 +1,8 @@
 # RATShield XDR Pro v0.3
 
-RATShield XDR Pro is an early-stage defensive research prototype for identifying RAT-like behavior on Windows, Linux, and Android devices.
+RATShield XDR Pro is a defensive endpoint triage and detection platform for identifying RAT-like behavior on Windows, Linux, and Android devices.
+
+The project focuses on practical host inspection, suspicious behavior scoring, evidence collection, reporting, and SOC-ready investigation workflows.
 
 ## Features
 
@@ -26,4 +28,4 @@ uvicorn backend.app.main:app --reload
 
 ## Security Notice
 
-This project is for defensive security research, SOC labs, malware analysis training, and authorized testing only.
+Use this project only for defensive security research, SOC labs, malware analysis training, and authorized endpoint assessment.
