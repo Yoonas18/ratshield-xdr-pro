@@ -4,7 +4,7 @@
 
 ## Portfolio Summary
 
-RATShield XDR Pro is a defensive endpoint triage platform built to help analysts identify RAT-like behavior across Windows, Linux, and Android ADB-connected devices.
+RATShield XDR Pro is a defensive endpoint triage platform I built to help analysts identify RAT-like behavior across Windows, Linux, and Android ADB-connected devices.
 
 The project combines a modern XDR-style dashboard with an evidence-rich detection engine, so each finding is easy to review, explain, and export.
 
@@ -23,7 +23,7 @@ RATShield XDR Pro addresses that by bringing together:
 
 ## Solution
 
-I designed the project around analyst workflow:
+I designed the project around a simple analyst workflow:
 
 1. Run a safe demo or live scan
 2. Review the highest-risk indicators first
@@ -64,8 +64,8 @@ This project demonstrates:
 - defensive product thinking
 - security UX polish
 - malware triage logic
-- evidence-first reporting
-- public showcase readiness
+- evidence-driven reporting
+- a presentation-friendly public page
 
 ## Tech Stack
 
