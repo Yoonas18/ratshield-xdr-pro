@@ -12,9 +12,9 @@
 
 ## About Me / What I Build
 
-I build practical defensive security tools that help analysts see suspicious behavior faster and explain it more clearly.
+I build practical defensive security tools that help analysts spot suspicious behavior faster and explain it clearly.
 
-RATShield XDR Pro is one of those builds: a cross-platform triage platform for Windows, Linux, and Android ADB-connected devices with a modern interface and evidence-first workflows.
+RATShield XDR Pro is one of those projects: a cross-platform triage platform for Windows, Linux, and Android ADB-connected devices with a clean interface and evidence-first workflows.
 
 ## Featured Project
 
@@ -28,6 +28,7 @@ RATShield XDR Pro helps identify RAT-like behavior across endpoints by combining
 - lightweight static analysis
 - Android permission clustering
 - MITRE ATT&CK mapping
+- HTML and JSON reporting
 
 ![Dashboard preview](https://raw.githubusercontent.com/Yoonas18/ratshield-xdr-pro/main/assets/dashboard-preview.svg)
 
@@ -42,14 +43,14 @@ Modern malware increasingly relies on:
 - screen capture
 - SMTP or email-based exfiltration
 
-RATShield XDR Pro is designed to surface those patterns quickly during triage and lab demonstrations.
+RATShield XDR Pro is built to surface those patterns quickly during triage and lab demonstrations.
 
 ## Highlights
 
 - Clean XDR-style dashboard
 - Risk score, confidence, and verdict generation
 - Search, filter, sort, and detail pinning
-- Safe demo mode for public showcase
+- Safe demo mode for walkthroughs
 - JSON and HTML evidence outputs
 - Portfolio-ready assets and screenshots
 
@@ -70,10 +71,10 @@ RATShield XDR Pro is designed to surface those patterns quickly during triage an
 
 ## Contact
 
-If you’re looking for a defensive engineering portfolio piece, this project is positioned to show:
+If you're looking for a defensive engineering portfolio piece, this project is meant to show:
 
 - security-minded product thinking
 - UX polish
 - threat detection logic
 - evidence-driven triage
-- public-facing presentation quality
+- presentation quality that feels polished and honest
