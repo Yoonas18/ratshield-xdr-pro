@@ -1,0 +1,62 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="860" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#040812"/>
+    <stop offset="1" stop-color="#050F1C"/>
+  </linearGradient>
+  <linearGradient id="a" x1="110" y1="110" x2="1140" y2="770" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0EA5E9"/>
+    <stop offset=".5" stop-color="#7C3AED"/>
+    <stop offset="1" stop-color="#22C55E"/>
+  </linearGradient>
+</defs>
+<rect width="1280" height="860" rx="36" fill="url(#bg)"/>
+<circle cx="1080" cy="130" r="200" fill="#8B5CF6" fill-opacity=".14"/>
+<circle cx="210" cy="740" r="220" fill="#38BDF8" fill-opacity=".10"/>
+<rect x="64" y="54" width="1152" height="752" rx="32" fill="rgba(10,16,32,.84)" stroke="rgba(148,163,184,.16)"/>
+<rect x="100" y="96" width="210" height="668" rx="26" fill="rgba(5,10,24,.92)" stroke="rgba(148,163,184,.12)"/>
+<rect x="344" y="96" width="828" height="668" rx="26" fill="rgba(5,10,24,.84)" stroke="rgba(148,163,184,.12)"/>
+<rect x="344" y="96" width="828" height="170" rx="26" fill="rgba(15,23,42,.75)" />
+<circle cx="140" cy="142" r="20" fill="url(#a)"/>
+<text x="174" y="138" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">RATShield</text>
+<text x="174" y="164" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">XDR Pro v0.3</text>
+<rect x="116" y="214" width="162" height="54" rx="16" fill="rgba(14,165,233,.22)" stroke="rgba(96,165,250,.3)"/>
+<rect x="116" y="284" width="162" height="54" rx="16" fill="rgba(15,23,42,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="116" y="354" width="162" height="54" rx="16" fill="rgba(15,23,42,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="116" y="424" width="162" height="54" rx="16" fill="rgba(15,23,42,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="116" y="494" width="162" height="54" rx="16" fill="rgba(15,23,42,.9)" stroke="rgba(148,163,184,.12)"/>
+<text x="144" y="247" fill="#E5F4FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">Overview</text>
+<text x="144" y="317" fill="#D8E3F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">Findings</text>
+<text x="144" y="387" fill="#D8E3F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">Analytics</text>
+<text x="144" y="457" fill="#D8E3F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">Timeline</text>
+<text x="144" y="527" fill="#D8E3F3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">Reports</text>
+<rect x="376" y="138" width="340" height="104" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="742" y="138" width="176" height="104" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="942" y="138" width="176" height="104" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<text x="404" y="176" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">VERDICT</text>
+<text x="404" y="214" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="900" letter-spacing="-1">Probable RAT behavior</text>
+<text x="770" y="178" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">FINDINGS</text>
+<text x="770" y="216" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="900">4</text>
+<text x="970" y="178" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">RISK</text>
+<text x="970" y="216" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="900">92</text>
+<rect x="970" y="228" width="112" height="8" rx="999" fill="#111827"/>
+<rect x="970" y="228" width="96" height="8" rx="999" fill="url(#a)"/>
+<rect x="376" y="272" width="714" height="206" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<text x="404" y="310" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">FIRST FINDING</text>
+<text x="404" y="346" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="900">Suspicious PowerShell loader</text>
+<text x="404" y="382" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Encoded command, hidden window, WebClient download chain.</text>
+<rect x="404" y="412" width="650" height="12" rx="999" fill="#111827"/>
+<rect x="404" y="412" width="490" height="12" rx="999" fill="url(#a)"/>
+<rect x="376" y="502" width="332" height="226" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="732" y="502" width="358" height="226" rx="22" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<text x="404" y="542" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">MITRE COVERAGE</text>
+<text x="404" y="590" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="900">7 techniques</text>
+<circle cx="520" cy="642" r="56" fill="none" stroke="rgba(96,165,250,.45)" stroke-width="12"/>
+<circle cx="520" cy="642" r="90" fill="none" stroke="rgba(139,92,246,.3)" stroke-width="10"/>
+<circle cx="520" cy="642" r="124" fill="none" stroke="rgba(34,197,94,.18)" stroke-width="8" stroke-dasharray="12 10"/>
+<text x="760" y="542" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">TIMELINE</text>
+<text x="760" y="584" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Scan started</text>
+<text x="760" y="624" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Collected process, persistence and static signals.</text>
+<text x="760" y="668" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Risk scoring completed</text>
+<text x="760" y="708" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Evidence ready for HTML and JSON export.</text>
+</svg>
