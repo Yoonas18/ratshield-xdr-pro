@@ -2,9 +2,9 @@
 
 ![RATShield XDR Pro banner](assets/project-banner.svg)
 
-RATShield XDR Pro is a defensive endpoint triage and detection platform for identifying RAT-like behavior across Windows, Linux, and Android ADB-connected devices.
+RATShield XDR Pro is a defensive triage and detection platform I built to help spot RAT-like behavior across Windows, Linux, and Android ADB-connected devices.
 
-It is designed for SOC training, suspicious activity triage, malware analysis exercises, and authorized inspection. The project focuses on clear evidence, practical scoring, and a modern investigation workflow instead of noisy one-off alerts.
+The idea was to keep the workflow practical: show the evidence clearly, score what matters, and make the findings easy to explain during a review. It is useful for SOC training, malware analysis exercises, and authorized inspection.
 
 ![Dashboard preview](assets/dashboard-preview.svg)
 
@@ -15,12 +15,12 @@ It is designed for SOC training, suspicious activity triage, malware analysis ex
 - Scores findings by severity, confidence, and risk
 - Maps findings to MITRE ATT&CK techniques
 - Generates JSON and HTML investigation reports
-- Provides a polished dashboard for analysts and demo visitors
-- Supports safe demo mode for public presentations
+- Provides a clear dashboard for analysts and demo visitors
+- Supports safe classroom presentation through a built-in demo mode
 
 ## Detection approach
 
-The current engine combines several complementary layers:
+The engine combines several layers:
 
 1. Process inspection
 2. Persistence inspection
@@ -30,7 +30,7 @@ The current engine combines several complementary layers:
 6. Android permission-cluster review
 7. Human-readable evidence output
 
-The scanner looks for patterns often used by modern RATs, trojans, loaders, and similar weaponized malware:
+The scanner looks for patterns often used by modern RATs, trojans, loaders, and similar malware:
 
 - PowerShell obfuscation and loader behavior
 - `schtasks` masquerading and fake update task names
@@ -107,14 +107,14 @@ backend/
     models/      # schemas and typed results
     scanners/    # demo, local, and Android ADB scanners
 frontend/        # modern single-page dashboard
-assets/          # reusable public-facing SVG artwork
+assets/          # reusable SVG artwork for the app and site
 scripts/         # CLI entrypoint
 index.html       # GitHub Pages style landing page
 ```
 
 ## Public landing page
 
-If you want to publish the repo as a GitHub Pages site, point Pages at the repository root so the bundled `index.html` and `assets/` folder are served directly.
+If you want to publish the repo as a GitHub Pages site, point Pages at the repository root so `index.html` and `assets/` are served directly.
 
 ## Portfolio and GitHub profile
 
@@ -123,7 +123,7 @@ Ready-made showcase content lives in:
 - [`profile/README.md`](profile/README.md) for a GitHub profile page
 - [`PORTFOLIO.md`](PORTFOLIO.md) for a case-study style portfolio entry
 
-Use those files as the polished public-facing summary for the project.
+Use those files as the summary for the project.
 
 ## Safety
 
@@ -131,4 +131,4 @@ This project contains no RAT payload, exploit chain, persistence installer, or o
 
 ## Positioning
 
-> RATShield XDR Pro is an early-stage defensive research prototype that helps identify RAT-like indicators across Windows, Linux, and Android. It is designed for SOC training, triage, and authorized inspection, not as a replacement for enterprise EDR or antivirus.
+> RATShield XDR Pro is a defensive tool for spotting RAT-like indicators across Windows, Linux, and Android. It is designed for SOC training, triage, and authorized inspection, not as a replacement for enterprise EDR or antivirus.
