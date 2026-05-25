@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RATShield XDR Pro</title>
+<style>
+:root{--bg:#050816;--panel:#0b1220;--panel2:#111827;--line:#1e293b;--text:#e5e7eb;--muted:#94a3b8;--brand:#38bdf8;--brand2:#a78bfa;--danger:#ef4444;--warn:#f59e0b;--ok:#22c55e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 20% 0%,#172554 0,#050816 28%),radial-gradient(circle at 85% 10%,#312e81 0,#050816 25%),#050816;color:var(--text)}.app{min-height:100vh;display:grid;grid-template-columns:286px 1fr}.side{border-right:1px solid var(--line);background:#020617bb;backdrop-filter:blur(20px);padding:24px;position:sticky;top:0;height:100vh}.logo{display:flex;align-items:center;gap:12px;margin-bottom:24px}.mark{width:52px;height:52px;border-radius:18px;background:linear-gradient(135deg,var(--brand),var(--brand2));box-shadow:0 0 40px #38bdf866}.logo h1{font-size:18px;line-height:1.1;margin:0}.logo small{color:var(--muted)}.nav{display:grid;gap:8px;margin:18px 0 22px}.nav button{width:100%;text-align:left;background:transparent;color:#cbd5e1;border:1px solid transparent;border-radius:14px;padding:12px;cursor:pointer;font-weight:700}.nav button:hover,.nav button.active{background:#0f172a;border-color:#243042}.safe{margin-top:24px;border:1px solid #164e63;background:#082f49aa;border-radius:18px;padding:14px;color:#cffafe;font-size:13px}.main{padding:24px;max-width:1600px}.hero{background:linear-gradient(180deg,#111827ee,#0f172acc);border:1px solid #243042;border-radius:30px;padding:28px;box-shadow:0 25px 80px #0008;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-100px;top:-120px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,#38bdf866,transparent 65%)}.hero h2{font-size:clamp(34px,4vw,58px);margin:0 0 8px;letter-spacing:-.04em}.muted{color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;align-items:center}button,.btn,.mini-btn{border:0;border-radius:14px;padding:12px 16px;font-weight:900;cursor:pointer;color:white;background:linear-gradient(135deg,#0284c7,#7c3aed);box-shadow:0 12px 35px #0006;text-decoration:none}.secondary{background:#1e293b!important}.ghost{background:transparent!important;border:1px solid #334155!important}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:18px 0}.card{background:#0b1220cc;border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 18px 60px #0005}.metric .num{font-size:34px;font-weight:950;letter-spacing:-.04em}.metric .label{color:var(--muted);font-size:12px;text-transform:uppercase;font-weight:900;letter-spacing:.08em}.verdict{font-size:18px;font-weight:900}.panel-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:16px}.table-wrap{overflow:auto;border-radius:18px;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;min-width:980px;background:#050b16}th,td{padding:13px;border-bottom:1px solid #1e293b;text-align:left;vertical-align:top;font-size:13px}th{background:#101827;color:#cbd5e1;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.badge,.tag{display:inline-flex;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:950}.critical{background:#7f1d1d;color:#fecaca}.high{background:#991b1b;color:#fee2e2}.medium{background:#92400e;color:#ffedd5}.low{background:#164e63;color:#cffafe}.info{background:#334155;color:#e2e8f0}.tag{background:#1e293b;color:#cbd5e1;margin:2px}.bar{height:10px;background:#111827;border-radius:999px;overflow:hidden}.bar span{display:block;height:100%;background:linear-gradient(90deg,#22c55e,#f59e0b,#ef4444);width:0}.timeline{list-style:none;padding:0;margin:0}.timeline li{padding:12px 0;border-bottom:1px solid var(--line)}.timeline b{display:block}.loader{display:none;color:#93c5fd;font-weight:900}.search,.select{width:100%;background:#020617;border:1px solid #334155;color:white;border-radius:14px;padding:12px}.search{margin:10px 0 16px}.empty{text-align:center;color:var(--muted);padding:30px}.pill{display:inline-block;border:1px solid #334155;border-radius:999px;padding:6px 10px;margin:3px;color:#cbd5e1;font-size:12px}.hero-row{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px;align-items:end}.hero-stack{display:grid;gap:12px}.visual-card{overflow:hidden;border-radius:24px;border:1px solid rgba(148,163,184,.14);background:linear-gradient(180deg, rgba(8,12,24,.96), rgba(14,20,38,.68));box-shadow:0 24px 80px rgba(0,0,0,.42)}.visual-card img{display:block;width:100%;height:auto}.hero-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.glass{background:rgba(10,16,32,.58);border:1px solid var(--line);border-radius:22px;padding:16px;backdrop-filter:blur(10px)}.glass .kicker{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.glass .value{margin-top:8px;font-size:20px;font-weight:900;letter-spacing:-.04em}.section-title{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.section-title h3{margin:0;font-size:18px;letter-spacing:-.03em}.section-title small{color:var(--muted)}.controls{display:grid;grid-template-columns:minmax(0,1fr) 164px 164px;gap:10px;margin:14px 0 16px}.split-layout{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:16px}.detail-head h4{margin:0;font-size:20px;letter-spacing:-.04em}.detail-kv{display:grid;gap:12px;margin-top:16px}.kv{border-top:1px solid rgba(148,163,184,.1);padding-top:12px}.kv .k{font-size:11px;font-weight:900;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}.kv .v{margin-top:7px;line-height:1.5}.list{list-style:none;padding:0;margin:0}.list li{padding:10px 0;border-bottom:1px solid rgba(148,163,184,.1)}.list li:last-child{border-bottom:0}.cover-grid{display:grid;gap:10px}.cover-item{display:grid;grid-template-columns:110px 1fr 44px;align-items:center;gap:10px}.cover-item b{font-size:12px;letter-spacing:.03em}.cover-bar{height:10px;border-radius:999px;overflow:hidden;background:rgba(148,163,184,.12)}.cover-bar span{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#0ea5e9,#8b5cf6 55%,#22c55e)}.link-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.inline-note{margin-top:14px;color:#d6e9ff;font-size:13px;line-height:1.5}.pulse{width:8px;height:8px;border-radius:999px;background:var(--ok);box-shadow:0 0 14px rgba(34,197,94,.55)}@media (max-width:1180px){.app{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line)}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.panel-grid,.split-layout,.hero-row,.controls{grid-template-columns:1fr}.detail{position:relative;top:0}}@media (max-width:680px){.main{padding:14px}.hero{padding:20px;border-radius:24px}.grid{grid-template-columns:1fr}.actions{flex-direction:column;align-items:stretch}.actions .split,.link-row{width:100%}.btn,.mini-btn{width:100%}.hero-meta{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><div class="mark"></div><div><h1>RATShield XDR Pro<small>Research Prototype v0.2</small></h1></div></div>
+    <div class="nav">
+      <button class="active" onclick="scrollToId('overview')">Overview</button>
+      <button onclick="scrollToId('findings')">Findings</button>
+      <button onclick="scrollToId('analytics')">Analytics</button>
+      <button onclick="scrollToId('timeline')">Timeline</button>
+      <button onclick="scrollToId('reports')">Reports</button>
+    </div>
+    <div class="safe">
+      <b>Scan Status</b><br>This build performs authorized local/ADB inspection and safe classroom demos. It does not include RAT code or exploitation payloads.
+    </div>
+  </aside>
+  <main class="main">
+    <section class="hero" id="overview">
+      <div class="eyebrow"><span class="pulse"></span> Cross-platform RAT hunting console</div>
+      <div class="hero-row">
+        <div>
+          <h2>See suspicious behavior with more clarity.</h2>
+          <p>Analyze suspicious processes, persistence, network indicators, Android permission clusters, file entropy and lightweight YARA-style string matches in a cleaner, faster dashboard.</p>
+          <div class="pills">
+            <span class="pill">Windows</span><span class="pill">Linux</span><span class="pill">Android ADB</span><span class="pill">MITRE Mapping</span><span class="pill">Risk Scoring</span>
+          </div>
+        </div>
+        <div class="hero-stack">
+          <div class="visual-card"><img src="/assets/dashboard-preview.svg" alt="RATShield dashboard preview" /></div>
+          <div class="hero-meta">
+            <div class="glass"><div class="kicker">Highest Risk</div><div class="value" id="heroRisk">0</div></div>
+            <div class="glass"><div class="kicker">Critical + High</div><div class="value" id="heroHot">0</div></div>
+            <div class="glass"><div class="kicker">Coverage</div><div class="value" id="heroCoverage">0 techniques</div></div>
+            <div class="glass"><div class="kicker">Platform</div><div class="value" id="heroPlatform">-</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="runScan('/api/scan/demo')">Run Safe Demo</button>
+        <button class="btn secondary" onclick="runScan('/api/scan/local')">Scan Local Host</button>
+        <button class="btn secondary" onclick="runScan('/api/scan/android')">Scan Android via ADB</button>
+        <div class="split"><a class="btn ghost" href="/api/reports/latest-html">HTML Report</a><a class="btn ghost" href="/api/reports/latest-json">JSON Evidence</a></div>
+        <span class="loader" id="loader">Scanning...</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card metric"><div class="label">Verdict</div><div class="value" id="verdict">Ready</div></div>
+      <div class="card metric"><div class="label">Findings</div><div class="num" id="total">0</div></div>
+      <div class="card metric"><div class="label">Highest Risk</div><div class="num" id="risk">0</div><div class="bar"><span id="riskbar"></span></div></div>
+      <div class="card metric"><div class="label">Critical / High</div><div class="num" id="hot">0</div></div>
+      <div class="card metric"><div class="label">Platform</div><div class="value" id="platform">-</div></div>
+    </section>
+
+    <section class="panel-grid">
+      <div class="card" id="findings">
+        <div class="section-title"><div><h3>Investigation Findings</h3><small>Search, filter, sort, and inspect evidence in one place.</small></div><div class="link-row"><button class="mini-btn ghost" onclick="loadLatest()">Load Latest</button><button class="mini-btn ghost" onclick="copySummary()">Copy Summary</button></div></div>
+        <div class="controls">
+          <input class="search" id="filter" oninput="renderFindings()" placeholder="Filter by severity, tag, MITRE, path, package, process..." />
+          <select class="select" id="severityFilter" onchange="renderFindings()"><option value="all">All severities</option><option value="critical">Critical</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option><option value="info">Info</option></select>
+          <select class="select" id="sortOrder" onchange="renderFindings()"><option value="risk-desc">Sort by risk</option><option value="risk-asc">Risk ascending</option><option value="confidence-desc">Confidence</option><option value="category">Category</option></select>
+        </div>
+        <div class="table-wrap"><table><thead><tr><th>Severity</th><th>Score</th><th>Category</th><th>Finding</th><th>Evidence</th><th>Action</th></tr></thead><tbody id="rows"><tr><td colspan="6" class="empty">Run a scan to view findings.</td></tr></tbody></table></div>
+      </div>
+      <aside class="card detail" id="detailPanel">
+        <div class="section-title"><div><h3>Finding Details</h3><small>Click a finding to pin the evidence panel.</small></div></div>
+        <div id="detailEmpty" class="empty" style="padding:28px 10px;">No finding selected yet.</div>
+        <div id="detailBody" style="display:none">
+          <div class="detail-head"><div class="detail-score"><span id="detailBadge" class="badge info">INFO</span><span class="muted" id="detailMeta">-</span></div><h4 id="detailTitle">-</h4><div class="muted" id="detailDescription">-</div></div>
+          <div class="detail-kv">
+            <div class="kv"><div class="k">Evidence</div><div class="v" id="detailEvidence"></div></div>
+            <div class="kv"><div class="k">MITRE</div><div class="v" id="detailMitre"></div></div>
+            <div class="kv"><div class="k">Recommendations</div><ul class="list" id="detailRecs"></ul></div>
+            <div class="kv"><div class="k">Explanation</div><div class="v muted" id="detailExplain"></div></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel-grid" style="margin-top:16px" id="analytics">
+      <div class="card"><div class="section-title"><div><h3>Category Analytics</h3><small>Spot where the scan is concentrating its signal.</small></div></div><div id="analyticsBars" class="cover-grid muted">No scan loaded.</div></div>
+      <div class="card"><div class="section-title"><div><h3>MITRE Coverage</h3><small>Technique mapping across the current result set.</small></div></div><div id="mitre" class="muted">No techniques mapped.</div></div>
+    </section>
+
+    <section class="card" id="timeline" style="margin-top:16px"><div class="section-title"><div><h3>Scan Timeline</h3><small>Activity and scan milestones in chronological order.</small></div></div><ul class="timeline" id="timelineList"><li class="muted">No scan started.</li></ul></section>
+
+    <section class="card" id="reports" style="margin-top:16px"><div class="section-title"><div><h3>Public Demo Positioning</h3><small>How to present the tool responsibly.</small></div></div><p class="inline-note">Present this as an early-stage defensive research prototype. It is useful for triage, SOC training, lab demos and suspicious indicator collection. It is not a replacement for enterprise EDR or antivirus.</p></section>
+  </main>
+</div>
+<script>
+let current = null;
+let selectedFindingId = null;
+
+function scrollToId(id){document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});}
+function esc(s){return String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#039;'}[m]));}
+function setLoading(on){document.getElementById('loader').style.display = on ? 'inline-flex' : 'none';}
+function sortFindings(items){const sort = document.getElementById('sortOrder').value;return [...items].sort((a,b)=>{if(sort==='risk-asc') return (a.risk_score||0)-(b.risk_score||0);if(sort==='confidence-desc') return (b.confidence||0)-(a.confidence||0);if(sort==='category') return String(a.category||'').localeCompare(String(b.category||'')) || (b.risk_score||0)-(a.risk_score||0);return (b.risk_score||0)-(a.risk_score||0);});}
+function getFilteredFindings(){if(!current || !current.findings) return [];const q = document.getElementById('filter').value.trim().toLowerCase();const sev = document.getElementById('severityFilter').value;return sortFindings(current.findings.filter(f => {if(sev!=='all' && String(f.severity||'').toLowerCase() !== sev) return false;return !q || JSON.stringify(f).toLowerCase().includes(q);}));}
+function pickInitialFinding(list){if(!list.length) return null;if(selectedFindingId){const hit = list.find(f => f.id === selectedFindingId);if(hit) return hit;}return list[0];}
+function setSelectedFinding(finding){selectedFindingId = finding ? finding.id : null;renderDetail(finding);renderFindings();}
+function renderDetail(f){const empty = document.getElementById('detailEmpty');const body = document.getElementById('detailBody');if(!f){empty.style.display='block';body.style.display='none';return;}empty.style.display='none';body.style.display='block';const badge = document.getElementById('detailBadge');badge.className = 'badge ' + esc(f.severity || 'info');badge.textContent = String(f.severity || 'info').toUpperCase();document.getElementById('detailMeta').textContent = (f.category || '-') + ' | ' + (f.platform || '-');document.getElementById('detailTitle').textContent = f.title || '-';document.getElementById('detailDescription').textContent = f.description || '-';document.getElementById('detailEvidence').innerHTML = (f.evidence||[]).length ? (f.evidence||[]).map(x => `<div class="mini-stat" style="padding:8px 0"><div><span>${esc(x.key)}</span><strong style="font-size:13px;font-weight:700;line-height:1.4">${esc(x.value)}</strong></div></div>`).join('') : '<span class="muted">No evidence recorded.</span>';document.getElementById('detailMitre').innerHTML = (f.mitre||[]).length ? (f.mitre||[]).map(m => `<span class="tag">${esc(m)}</span>`).join('') : '<span class="muted">No MITRE mapping.</span>';document.getElementById('detailRecs').innerHTML = (f.recommendations||[]).length ? (f.recommendations||[]).map(r => `<li>${esc(r)}</li>`).join('') : '<li class="muted">No recommendations recorded.</li>';document.getElementById('detailExplain').textContent = f.explanation || 'No explanation provided.';}
+function renderFindings(){const rows=document.getElementById('rows');rows.innerHTML='';const list=getFilteredFindings();if(!current||!current.findings||!current.findings.length){rows.innerHTML='<tr><td colspan="6" class="empty">No suspicious findings detected by current rules.</td></tr>';renderDetail(null);return;}if(!list.length){rows.innerHTML='<tr><td colspan="6" class="empty">No matching findings.</td></tr>';renderDetail(null);return;}const active=pickInitialFinding(list);for(const f of list){const ev=(f.evidence||[]).map(x => `<b>${esc(x.key)}</b>: ${esc(x.value)}`).join('<br>');const tags=(f.tags||[]).map(t => `<span class="tag">${esc(t)}</span>`).join('');const row=document.createElement('tr');row.className='row'+(active&&active.id===f.id?' selected':'');row.innerHTML=`<td><span class="badge ${esc(f.severity)}">${esc(String(f.severity||'info').toUpperCase())}</span></td><td><b>${esc(f.risk_score)}</b><br><small class="muted">${esc(f.confidence)}% confidence</small></td><td>${esc(f.category)}</td><td><b>${esc(f.title)}</b><p class="muted">${esc(f.description)}</p><p>${tags}</p><small class="muted">${esc((f.mitre||[]).join(' | '))}</small></td><td>${ev}<p class="muted">${esc(f.explanation)}</p></td><td>${(f.recommendations||[]).map(r=>'• '+esc(r)).join('<br>')}</td>`;row.onclick=()=>setSelectedFinding(f);rows.appendChild(row);}if(active) renderDetail(active);}
+function renderAnalytics(){if(!current||!current.summary){document.getElementById('analyticsBars').innerHTML='No scan loaded.';document.getElementById('mitre').innerHTML='No techniques mapped.';return;}const s=current.summary;const cats=[['Persistence',s.persistence],['Network',s.network],['Process',s.process],['File',s.file],['Android',s.android]];document.getElementById('analyticsBars').innerHTML=cats.map(([name,value])=>`<div class="cover-item"><b>${esc(name)}</b><div class="cover-bar"><span style="width:${Math.min(100, value*25)}%"></span></div><div class="muted" style="text-align:right;font-size:12px">${esc(value)}</div></div>`).join('');const mitres=[...new Set((current.findings||[]).flatMap(f=>f.mitre||[]))];document.getElementById('mitre').innerHTML = mitres.length ? mitres.map(m=>`<span class="tag">${esc(m)}</span>`).join('') : 'No techniques mapped.';}
+function renderTimeline(){const ul=document.getElementById('timelineList');if(!current||!current.timeline||!current.timeline.length){ul.innerHTML='<li class="muted">No scan started.</li>';return;}ul.innerHTML='';for(const t of current.timeline){ul.innerHTML += `<li><b>${esc(t.title)}</b><span class="muted">${esc(t.time)}</span><br><small>${esc(t.details)}</small></li>`;}}
+function renderAll(){if(!current) return;document.getElementById('verdict').textContent=current.verdict;document.getElementById('total').textContent=current.total_findings;document.getElementById('risk').textContent=current.highest_risk;document.getElementById('riskbar').style.width=current.highest_risk+'%';document.getElementById('platform').textContent=current.platform;document.getElementById('hot').textContent=(current.summary.critical+current.summary.high);document.getElementById('heroRisk').textContent=current.highest_risk;document.getElementById('heroHot').textContent=current.summary.critical+current.summary.high;const mitres=[...new Set((current.findings||[]).flatMap(f=>f.mitre||[]))];document.getElementById('heroCoverage').textContent=mitres.length+' techniques';document.getElementById('heroPlatform').textContent=current.platform||'-';document.getElementById('statusDot')?.style?.background = current.highest_risk>=61 ? 'var(--danger)' : current.highest_risk>=31 ? 'var(--warn)' : 'var(--ok)';renderFindings();renderAnalytics();renderTimeline();}
+async function runScan(endpoint){setLoading(true);try{const res=await fetch(endpoint,{method:'POST'});current=await res.json();selectedFindingId=null;renderAll();}catch(e){alert('Scan failed: '+e);}finally{setLoading(false);}}
+async function loadLatest(){setLoading(true);try{const res=await fetch('/api/reports/latest-json');if(!res.ok) throw new Error('No latest report available');current=await res.json();selectedFindingId=null;renderAll();}catch(e){await runScan('/api/scan/demo');}finally{setLoading(false);}}
+async function copySummary(){if(!current){alert('Run a scan first.');return;}const payload={verdict:current.verdict,target:current.target,platform:current.platform,total_findings:current.total_findings,highest_risk:current.highest_risk,summary:current.summary};try{await navigator.clipboard.writeText(JSON.stringify(payload,null,2));}catch(e){alert('Copy failed: '+e);}}
+document.getElementById('sortOrder').addEventListener('change', renderFindings);document.getElementById('severityFilter').addEventListener('change', renderFindings);loadLatest();
+</script>
+</body>
+</html>
