@@ -1,0 +1,61 @@
+<svg width="1600" height="840" viewBox="0 0 1600 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="840" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#040712"/>
+    <stop offset="0.52" stop-color="#071428"/>
+    <stop offset="1" stop-color="#03050B"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="310" y1="140" x2="1290" y2="700" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#38BDF8" stop-opacity=".28"/>
+    <stop offset=".5" stop-color="#8B5CF6" stop-opacity=".24"/>
+    <stop offset="1" stop-color="#22C55E" stop-opacity=".18"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="300" y1="180" x2="1350" y2="740" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0EA5E9"/>
+    <stop offset=".52" stop-color="#7C3AED"/>
+    <stop offset="1" stop-color="#22C55E"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="840" fill="url(#bg)"/>
+<circle cx="280" cy="180" r="180" fill="#38BDF8" fill-opacity=".12"/>
+<circle cx="1320" cy="120" r="220" fill="#8B5CF6" fill-opacity=".16"/>
+<circle cx="1200" cy="650" r="240" fill="#22C55E" fill-opacity=".10"/>
+<rect x="80" y="78" width="1440" height="684" rx="40" fill="rgba(11,18,34,.72)" stroke="rgba(148,163,184,.16)"/>
+<rect x="120" y="118" width="510" height="604" rx="28" fill="rgba(7,11,22,.78)" stroke="rgba(148,163,184,.14)"/>
+<rect x="676" y="118" width="804" height="604" rx="28" fill="rgba(7,11,22,.76)" stroke="rgba(148,163,184,.14)"/>
+<circle cx="176" cy="160" r="18" fill="url(#accent)"/>
+<text x="210" y="156" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="-1">RATShield XDR Pro</text>
+<text x="210" y="188" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Defensive triage and malware indicator analysis</text>
+<rect x="160" y="236" width="430" height="86" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.14)"/>
+<rect x="160" y="338" width="430" height="86" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.14)"/>
+<rect x="160" y="440" width="430" height="86" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.14)"/>
+<rect x="160" y="542" width="430" height="116" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.14)"/>
+<text x="188" y="272" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">HIGHEST RISK</text>
+<text x="188" y="310" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="40" font-weight="900" letter-spacing="-1">92</text>
+<rect x="278" y="292" width="280" height="12" rx="999" fill="#111827"/>
+<rect x="278" y="292" width="240" height="12" rx="999" fill="url(#accent)"/>
+<text x="188" y="374" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">DETECTION SURFACES</text>
+<text x="188" y="412" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Windows, Linux, Android ADB</text>
+<text x="188" y="476" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">ANALYTICS</text>
+<text x="188" y="514" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">MITRE mapping, timeline, risk scoring</text>
+<text x="188" y="578" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">DEFENSIVE DATA</text>
+<text x="188" y="615" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">Evidence, hashes, command lines, paths</text>
+<text x="188" y="645" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Purpose-built for SOC training and incident triage.</text>
+<rect x="724" y="164" width="706" height="86" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="724" y="266" width="706" height="180" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="724" y="462" width="340" height="204" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<rect x="1090" y="462" width="340" height="204" rx="20" fill="rgba(11,18,34,.9)" stroke="rgba(148,163,184,.12)"/>
+<text x="756" y="198" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">RISK ENGINE</text>
+<text x="756" y="236" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="900" letter-spacing="-1.2">Threat hunting dashboard</text>
+<text x="756" y="302" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="2">PROCESS | NETWORK | PERSISTENCE | FILE | ANDROID</text>
+<text x="756" y="352" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="800">Suspicious PowerShell loader</text>
+<text x="756" y="384" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Encoded execution, hidden window, WebClient download chain.</text>
+<rect x="752" y="401" width="620" height="10" rx="999" fill="#111827"/>
+<rect x="752" y="401" width="458" height="10" rx="999" fill="url(#accent)"/>
+<text x="756" y="500" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">MITRE COVERAGE</text>
+<text x="756" y="538" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="900" letter-spacing="-1.3">7 techniques</text>
+<text x="1112" y="534" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">EVIDENCE</text>
+<text x="1112" y="566" fill="#F4F7FB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="800">Hash, path, command line</text>
+<text x="1112" y="596" fill="#9AA7BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Exportable JSON and HTML reports</text>
+<text x="120" y="792" fill="#73819A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">DEFENSIVE RESEARCH PROTOTYPE · SOC TRAINING · AUTHORIZED INSPECTION ONLY</text>
+</svg>
